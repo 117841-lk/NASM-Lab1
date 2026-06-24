@@ -5,6 +5,9 @@
       "label": "build",
       "type": "shell",
       "command": "make build",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
       "group": {
         "kind": "build",
         "isDefault": true
@@ -21,6 +24,9 @@
       "label": "run",
       "type": "shell",
       "command": "make run",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
       "presentation": {
         "reveal": "always",
         "panel": "shared",
@@ -33,6 +39,9 @@
       "label": "debug",
       "type": "shell",
       "command": "make debug",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
       "presentation": {
         "reveal": "always",
         "panel": "dedicated",
@@ -45,6 +54,9 @@
       "label": "clean",
       "type": "shell",
       "command": "make clean",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
       "presentation": {
         "reveal": "always",
         "panel": "shared",
@@ -57,6 +69,9 @@
       "label": "rebuild",
       "type": "shell",
       "command": "make rebuild",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
       "presentation": {
         "reveal": "always",
         "panel": "shared",
