@@ -6,8 +6,7 @@ SRC      := src/main.asm
 OBJ      := build/main.o
 
 ASMFLAGS := -f elf64 -g -F dwarf
-CFLAGS   := -g
-LDFLAGS  := -no-pie -g
+LDFLAGS  := -no-pie -nostartfiles -g
 
 .PHONY: all build run debug clean rebuild
 
