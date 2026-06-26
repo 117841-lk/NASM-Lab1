@@ -1,4 +1,4 @@
-# Pliki wynikowe
+# Ignoruj Pliki wynikowe
 main
 build/
 *.o
@@ -12,13 +12,13 @@ build/
 !README.md
 !.gitignore
 
-# VS Code - tylko wybrane ustawienia
+# Zostaw ustawienia VSCode
 .vscode/*
 !.vscode/launch.json
 !.vscode/tasks.json
 !.vscode/settings.json
 
-# Devcontainer zostawiamy
+# Zostaw ustawienia kontenera
 !.devcontainer/
 !.devcontainer/devcontainer.json
 !.devcontainer/Dockerfile
