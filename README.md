@@ -83,7 +83,6 @@ Program startowy zawiera wyłącznie sekcję `.text` i wykonuje proste operacje 
 2. Zapisz wartości wybranych rejestrów po każdej instrukcji.
 3. Zmień wartości stałych użytych w instrukcjach i sprawdź, jak wpływa to na wynik.
 4. Dopisz własne instrukcje `mov`, `add` i `sub`.
-5. W kolejnych zadaniach rozbuduj program o sekcje `.data`, `.bss` i `.rodata`.
 
 ## Uwagi
 
