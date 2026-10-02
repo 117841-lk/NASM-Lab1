@@ -16,7 +16,12 @@
       "setupCommands": [
         {
           "description": "Intel syntax",
-          "text": "set disassembly-flavor intel",
+          "text": "-gdb-set disassembly-flavor intel",
+          "ignoreFailures": true
+        },
+        {
+          "description": "Disable GDB pagination",
+          "text": "-gdb-set pagination off",
           "ignoreFailures": true
         }
       ]
