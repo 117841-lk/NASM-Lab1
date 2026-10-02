@@ -4,5 +4,7 @@
   "editor.insertSpaces": true,
   "editor.rulers": [80],
   "files.trimTrailingWhitespace": true,
-  "files.insertFinalNewline": true
+  "files.insertFinalNewline": true,
+  "debug.allowBreakpointsEverywhere": true,
+  "editor.formatOnSave": true,
 }
