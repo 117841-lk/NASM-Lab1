@@ -1,8 +1,18 @@
 {
   "name": "asm-labs",
+
   "build": {
     "dockerfile": "Dockerfile"
   },
+
+  // Wymagane m.in. przez GDB / ptrace podczas debugowania programów asm/C/C++
+  "capAdd": [
+    "SYS_PTRACE"
+  ],
+  "securityOpt": [
+    "seccomp=unconfined"
+  ],
+
   "customizations": {
     "vscode": {
       "extensions": [
@@ -12,5 +22,6 @@
       ]
     }
   },
+
   "remoteUser": "vscode"
 }
